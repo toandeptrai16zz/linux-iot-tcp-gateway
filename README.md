@@ -30,7 +30,7 @@ Kho mã nguồn gồm hai thành phần độc lập:
 
 ### 1. Run the Linux Gateway
 ### 1. Chạy Linux Gateway
-```bash
+```bash 
 cd linux_server
 make
 ./gateway_app

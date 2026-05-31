@@ -1,0 +1,7 @@
+# Bỏ qua file thực thi của C
+linux_server/gateway_app
+*.o
+
+# Bỏ qua thư mục build của ESP32 PlatformIO
+esp32_node/.pio/
+esp32_node/.vscode/
