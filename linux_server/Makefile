@@ -5,7 +5,7 @@ TARGET = gateway_app
 all: $(TARGET)
 
 $(TARGET): main.c
-	$(CC) $(CFLAGS) -o $(TARGET) main.c
+	$(CC) $(CFLAGS) -o $(TARGET) main.c -lsqlite3 
 
 clean:
 	rm -f $(TARGET)
